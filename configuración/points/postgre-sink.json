@@ -1,0 +1,31 @@
+{
+  "name": "postgres-sink-ibex-points",
+  "config": {
+    "connector.class": "io.confluent.connect.jdbc.JdbcSinkConnector",
+    "tasks.max": "1",
+
+    "topics": "ibex35_ETL",
+    "connection.url": "jdbc:postgresql://192.168.67.10:5432/ibex_db",
+    "connection.user": "hadoop",
+    "connection.password": "hadoop",
+
+    "table.name.format": "ibex_points",
+    "insert.mode": "insert",
+    "pk.mode": "none",
+
+    "auto.create": "true",
+    "auto.evolve": "true",
+
+    "value.converter": "org.apache.kafka.connect.json.JsonConverter",
+    "value.converter.schemas.enable": "true",
+
+    "transforms": "convertTS",
+    "transforms.convertTS.type": "org.apache.kafka.connect.transforms.TimestampConverter$Value",
+    "transforms.convertTS.field": "timestamp",
+    "transforms.convertTS.target.type": "Timestamp",
+
+    "errors.tolerance": "all",
+    "errors.log.enable": "true",
+    "errors.log.include.messages": "true"
+  }
+}
