@@ -7,6 +7,10 @@
 
 > Desde el Departamento se darán los medios que estén a su alcance para dar soporte al proyecto.
 
+> **Este README es un resumen del proyecto, la documentación más detaallada se encuentra en la Wiki**
+
+> [Wiki](https://github.com/iesgrancapitan-CEIABD-BDA/proyecto-final-bda-2024-25-guadalupelunv/wiki)
+
 ## Índice
 1. [Requisitos](#1-requisitos)
 2. [Objetivo y descripción del proyecto](#2-objetivo-y-descripción-del-proyecto)

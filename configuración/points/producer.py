@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 
 # Configuración
 TICKS_PER_SECOND = 1
-DURATION_MINUTES = 30  # puedes cambiar a 510 para simular una jornada completa (8.5h)
+DURATION_MINUTES = 60 
 
 # Precios iniciales
 acciones = {
