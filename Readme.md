@@ -1,15 +1,12 @@
-# Big Data Aplicado
-## Proyecto Final
+## Curso Especialización Inteligencia Articicial y Big Data (2024-2025)
+
+# Proyecto Final Big Data Aplicado
 
 > Como proyecto final y para la evaluación del aprendizaje de todos los RAs del módulo, el alumnado realizara un proyecto completo que incluya la demostración de todo el Stack y los RAs del módulo, siguiente los requisitos que se expondrán a continuación
 
-> La evaluación de este proyecto equivale a lo que sería el examen final del módulo.
+> **Este README es un resumen del proyecto, la documentación más detallada se encuentra en la Wiki**
 
-> Desde el Departamento se darán los medios que estén a su alcance para dar soporte al proyecto.
-
-> **Este README es un resumen del proyecto, la documentación más detaallada se encuentra en la Wiki**
-
-> [Wiki](https://github.com/iesgrancapitan-CEIABD-BDA/proyecto-final-bda-2024-25-guadalupelunv/wiki)
+[Wiki]()
 
 ## Índice
 1. [Requisitos](#1-requisitos)
@@ -63,7 +60,7 @@
    2. Spark
    3. Kafka
 
-[:arrow_up:](#creación-de-microservicios-y-una-canalización-de-cicd-con-aws)
+[:arrow_up:](#curso-especialización-inteligencia-articicial-y-big-data-2024-2025)
 
 ## 2. Objetivo y descripción del proyecto
 
@@ -71,7 +68,7 @@ El proyecto tiene como objetivo la creación de un sistema completo de Big Data 
 
 Este análisis se complementará con el procesamiento de noticias económicas relevantes. A través de la correlación entre estos dos tipos de datos —cotizaciones bursátiles y contenido de noticias económicas con scoring de sentimiento—, se busca generar insights precisos que contribuyan a una mejor toma de decisiones en la compra de acciones de las empresas que componen este índice.
 
-[:arrow_up:](#creación-de-microservicios-y-una-canalización-de-cicd-con-aws)
+[:arrow_up:](#curso-especialización-inteligencia-articicial-y-big-data-2024-2025)
 
 ### 2.1 Fuente de los datos
 
@@ -82,7 +79,7 @@ Para simular un entorno realista y controlado, el sistema se desarrollará utili
 | Datos sintéticos | Cotizaciones diarias de las 35 empresas del IBEX 35 por segundo | Streaming |
 | Datos sintéticos | Noticias económicas o relevantes para las empresas con scoring | Streaming |
 
-[:arrow_up:](#creación-de-microservicios-y-una-canalización-de-cicd-con-aws)
+[:arrow_up:](#curso-especialización-inteligencia-articicial-y-big-data-2024-2025)
 
 ### 2.2 Arquitectura
 
@@ -94,7 +91,7 @@ Sin embargo, en un escenario real de Big Data, el uso exclusivo de PostgreSQL po
 
 ![Flujo de datos del proyecto Ibex35](img/flujo-datos.png)
 
-[:arrow_up:](#creación-de-microservicios-y-una-canalización-de-cicd-con-aws)
+[:arrow_up:](#curso-especialización-inteligencia-articicial-y-big-data-2024-2025)
 
 ### 2.3 Visualización
 
@@ -102,7 +99,7 @@ Por último, la visualización de los datos analíticos se lleva a cabo mediante
 
 Power BI, por su parte, ofrece una interfaz más enfocada en la creación de informes interactivos, con visualizaciones personalizables que permiten filtrar datos por empresa, periodo o categoría de noticia, y así facilitar el análisis de correlaciones y tendencias significativas y lo usamos con los datos guardados en HDFS, aunque en este caso los datos no podrán ser actualizados en tiempo real.
 
-[:arrow_up:](#creación-de-microservicios-y-una-canalización-de-cicd-con-aws)
+[:arrow_up:](#curso-especialización-inteligencia-articicial-y-big-data-2024-2025)
 
 ![Dashboard 1](img/dashboard1.png)
 ![Dashboard 1](img/dashboard2.png)
@@ -116,7 +113,7 @@ En cuanto a la monitorización del sistema, se emplea un stack compuesto por Pro
 ![Monitoreo 1](img/monitoreo1.png)
 ![Monitoreo 2](img/monitoreo2.png)
 
-[:arrow_up:](#creación-de-microservicios-y-una-canalización-de-cicd-con-aws)
+[:arrow_up:](#curso-especialización-inteligencia-articicial-y-big-data-2024-2025)
 
 ## 3. Autora
 
